@@ -1,0 +1,95 @@
+*{  
+	margin:0;padding: 0;
+	list-style: none;
+	font-size:14px;
+	color:#666;
+}
+body{background-color:#f8f8f8 !important;}
+input{
+	border: none;
+	padding: 0;
+}
+a{text-decoration:none}
+/*header部分*/
+.header{
+	height: 81px;
+	border: 1px solid #fff;
+	background: #fff!important;
+}
+.header-logo{
+	float: left;
+	line-height:81px;
+	color:#00c3f5;
+	margin-right:20px;
+	font-family:layout-font;
+}
+.header-nav{
+	float: right;
+	line-height:81px;
+}
+.header-nav li{
+	float: left;
+	margin-right:20px;
+	
+}
+.header-nav .serach{
+	border: 1px solid #ccc;
+	width: 180px;height: 30px;
+	line-height:28px;
+	border-radius:20px;
+	margin:25px 17px 30px;
+	padding:0 10px;
+}
+.header-nav .serach input{
+	height:20px;
+	width: 130px;
+   line-height:20px;
+   border:none;
+   background:transparent;
+}
+.header-nav li img{
+	display:inline-block;
+	width: 24px;height: 24px;
+}
+.header-nav li::after{
+	content:'';
+	display: inline-block;
+	clear:both;
+	overflow:hidden;
+}
+.header-li .li1{
+   float: left;
+   margin-right:20px;
+   margin-top:30px;
+   color:#333;
+}
+
+.header-li .li1 a{
+    color:#666;
+    text-decoration:none;
+}
+.header-li .li1 a:hover{
+    color:#00c3f5;
+    text-decoration:none;
+}
+.header-li .header-li-chlid {
+    width:100%;
+	border: 1px solid #000;
+}
+.header-li .header-li-chlid .header-li-chlid-list-item{
+	width: 136px;height: 132px;
+	display: inline-block;
+}
+.header-li .header-li-chlid .header-li-chlid-list .header-li-chlid-list-item .contBox img{
+    width: 80px;height: 80px;
+}
+.header-li .header-li-chlid .header-li-chlid-list .header-li-chlid-list-item .name,.price{
+	margin-top:10px;
+	height: 10px;
+    margin-left:10px;
+}
+.header-li li::after{
+	content:'';
+	display:inline-block;
+	clear:both;
+}

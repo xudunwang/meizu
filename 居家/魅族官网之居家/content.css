@@ -1,0 +1,94 @@
+#content{float: left;text-align:center;margin-top:-20px;}
+#content div{
+	width:3000px;
+	/*height:100px;*/
+	display: none;
+	background: #fff;
+	position:absolute;
+	top:81px;left: 0;
+}
+#content li{float:left;margin: 0 auto;}
+#content    .box{
+        display:block;
+        width: 100%;
+        position:absolute;
+        top:80px;
+        left:0;
+        /*border: 1px solid #f40;
+        border: 1px solid #000;*/
+        z-index:666;
+        padding-top:20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: none;
+    }
+#content    .box ul{
+        position: relative;
+        left:50%;
+        /*width:924px;*/
+        margin:0 -350px;
+        background: #ccc;
+        /*animation:5s ease move forwards 1;
+        animation-delay:.1s;*/
+    }
+#content    .box ul:hover li {
+       opacity:.3; 
+    }
+#content    .box ul li:hover {
+      opacity:.8;
+    }
+#content    .box .list{
+        width: 136px;
+        height: 132px;
+        float: left;
+        list-style:none;
+        /*border: 1px solid #000;*/
+        background: #fff;
+        padding:5px 8px 0;
+        animation:10s linear move forwards 1;
+        
+    }
+    @keyframes move{
+        0%{margin-left: 0;}
+        17%{margin-left: -20px;}
+        33%{margin-left: -20px;}
+        50%{margin-left: -20px;}
+        66%{margin-left: -20px;}
+        83%{margin-left: -20px;}
+        100%{margin-left: -20px;}
+    }
+#content    .box .list .list-a{
+        text-decoration:none;
+        color:#333;
+        opacity:1;
+    } 
+#content    .box .list .list-a .contBox{
+	    width: 80px;
+        height: 80px;
+        border: 1px solid #000;
+
+    } 
+#content    .box .list .list-a .contBox img{
+        /*opacity:1;*/
+        width: 80px;
+        height: 80px;
+        display:block;
+        margin: 0 auto;
+        border:1px solid #000;
+    }
+#content    .box .list .list-a p{
+        opacity:1;
+        margin: 0;
+        text-align:center;#content
+        font-size:12px;
+        transition:opacity .3s ease-in-out
+    } 
+#content    .box .list .list-a .name{
+        margin-top:10px;
+
+    } 
+#content    .box .list .list-a .price{
+        color:#666;
+
+    }

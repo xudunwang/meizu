@@ -1,0 +1,42 @@
+.content3{
+	height: 52px;
+	line-height:52px;
+	text-align:center;
+}
+.content3 .pages{
+	display:inline-block;
+	margin-top: 15px;
+	text-align:center;
+}
+.content3 .pages .prv{
+	box-sizing:border-box;
+	width:32px;height:32px;
+	line-height:21px;
+	border: 1px solid #ddd;
+	background:#fff;
+	text-align:center;
+	padding:5px;
+}
+.content3 .pages .prv i{
+	color:#efefef;
+	margin-left:5px;
+}
+.content3 .pages span{
+	margin:0 10px;
+}
+.content3 .pages a{
+	margin: 0 10px;
+}
+.content3 .pages .next{
+	box-sizing:border-box;
+	width:32px;height:32px;
+	line-height:21px;
+	border: 1px solid #ddd;
+	background:#fff;
+	text-align:center;
+	padding:5px;
+}
+.content3 .pages .next i{
+	color:#efefef;
+	margin-right:5px;
+}

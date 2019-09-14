@@ -1,0 +1,100 @@
+/*footer部分*/
+.footer{
+    margin-top:50px;
+	height: 295px;
+	background: #fff;
+}
+.footer .f-top{
+	width: 1140px;height: 199px;
+	border-bottom: 1px solid #ccc;
+}
+.f-top-left{
+	float: left;
+	width: 900px;height: 120px;
+	margin: 60px 0px 20px 0px;
+	list-style: none;
+}
+.f-top-left .li6{
+	float: left;
+	width: 225px;height: 30px;
+	margin-bottom: 30px;
+	color: #f40;
+	line-height: 30px;
+}
+.f-top-left  .li6 span{
+	color: #999;
+	text-decoration: none;
+}
+.f-top-right{
+	float: right;
+	width: 150px;height: 100px;
+	margin-top: 65px;
+	/*background: #f0f;*/
+}
+.f-top-right .zi{
+	color: #999;
+	font-size: 12px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+}
+.f-top-right .telp{
+	font-size: 22px;
+	color: #00c3f5;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.f-top-right .probelms{
+	width: 140px;height: 40px;
+	background: #00c3f5;
+	line-height: 40px;
+	text-align: center;
+}
+.f-top-right .probelms .pro{
+	text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.f-top-right .probelms .pro .span2{
+	padding-left: 5px;
+}
+.footer .f-bottom{
+	height:81px;
+	/*background: #ddd;*/
+	color:#ccc;
+}
+.footer .f-bottom .ft-list{
+	height: 17px;
+	line-height:17px;
+	float: left;
+	margin:26px 0 18px;
+}
+.footer .f-bottom .ft-list .ft-item{
+	float: left;
+	color:#ccc;
+	margin:0 5px;
+	padding:0 5px;
+	border-right:1px solid #ccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.footer .f-bottom .ft-list .ft-item1{
+	border-right:none;
+}
+.footer .f-bottom .ft-list .ft-item a{
+	color:#ccc;
+	text-decoration: none;
+}
+.footer .f-bottom .ft-as{
+	float: left;
+	height: 20px;
+}
+.footer .f-bottom .ft-as .ft-a {
+	height: 20px;
+}
+.footer .f-bottom .ft-as .ft-a a{
+	float: left;
+	text-decoration:none;
+	color:#ccc;
+	margin-right:5px;
+}

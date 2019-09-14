@@ -1,0 +1,67 @@
+.content4{
+	height: 390px;
+}
+.content4 .recommend{
+	height: 36px;
+	line-height:36px
+}
+.content4 .recommend h2{
+	margin: 0;padding: 0;
+	display:inline-block;
+}
+.content4 .recommend .cont{
+	float: right;
+}
+.content4 .recommend .cont .prv{
+    box-sizing:border-box;
+	width:32px;height:32px;
+	line-height:21px;
+	border: 1px solid #ddd;
+	background:#fff;
+	text-align:center;
+	padding:5px;        
+}
+.content4 .recommend .cont .prv i{
+    color:#ccc;        
+}
+.content4 .recommend .cont .next{
+    box-sizing:border-box;
+	width:32px;height:32px;
+	line-height:21px;
+	border: 1px solid #00c3f5;
+	background:#fff;
+	text-align:center;
+	padding:5px;
+	margin-left:5px;        
+}
+.content4 .recommend .cont .next i{
+    color:#00c3f5;        
+}
+.content4 .recommand-goods{
+	height: 340px;
+	background: #fff;
+	text-align:center;
+	overflow:hidden;
+}
+
+.content4 .recommand-goods .rs-item{
+	list-style:none;
+	float: left;
+	overflow:hidden;
+	padding: 30px 20px;
+}
+.content4 .recommand-goods .rs-item:hover img{
+	transform:scale(1.1);
+	transition:all .1s linear;
+}
+.content4 .recommand-goods .rs-item a{
+	text-decoration: none;
+}
+.content4 .recommand-goods .rs-item  .rs-img{
+	height: 180px;
+}
+.content4 .recommand-goods .rs-item  p span{
+	font-size: 16px;
+	color:red
+}
+     
